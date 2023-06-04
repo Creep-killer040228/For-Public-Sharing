@@ -25,7 +25,8 @@
     --text-menu: #1A2147;
 }
 
-body {}
+body {
+}
 
 .container {
     max-width: 1440px;
