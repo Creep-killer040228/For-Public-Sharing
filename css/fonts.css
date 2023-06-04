@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'GT';
+    src: url(../fonts/GT/Lato-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'AR';
+    src: url(../fonts/Aeonik/AeonikTRIAL-Regular.otf) format('truetype');
+}
+@font-face {
+    font-family: 'ME';
+    src: url(../fonts/Manrope/Manrope-ExtraBold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'MM';
+    src: url(../fonts/Manrope/Manrope-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'MB';
+    src: url(../fonts/Manrope/Manrope-SemiBold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'PB';
+    src: url(../fonts/Poppins/Poppins-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'PE';
+    src: url(../fonts/Poppins/Poppins-ExtraBold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'PM';
+    src: url(../fonts/Poppins/Poppins-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'MS';
+    src: url(../fonts/Source-serif/SourceSerif4-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'SR';
+    src: url(../fonts/Source-serif/SourceSerifPro-Regular.ttf) format('truetype');
+}

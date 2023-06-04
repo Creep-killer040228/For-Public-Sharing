@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+:root {
+    --GT: 'GT, sans-serif';
+    --AR: 'AR, sans-serif';
+    --ME: 'ME, sans-serif';
+    --MM: 'MM, sans-serif';
+    --MB: 'MB, sans-serif';
+    --PB: 'PB, sans-serif';
+    --PE: 'PE, sans-serif';
+    --PM: 'PM, sans-serif';
+    --MS: 'MS, sans-serif';
+    --SR: 'SR, sans-serif';
+    --bg: #F0E4CF;
+    --green: #4FAD84;
+    --violet: #8265E0;
+    --white: #FFFFFF;
+}
+
+body {}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}

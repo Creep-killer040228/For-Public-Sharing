@@ -1,0 +1,27 @@
+.green__btn {
+    font-family: var(--PE);
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 24px;
+    color: var(--white);
+    padding: 22px 36px;
+    background: var(--green);
+}
+
+.white__btn{
+    padding: 22px 36px;
+    font-family: var(--PE);
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 24px;
+    color: var(--green);
+    background: none;
+}
+
+.purple__btn {
+    font-family: var(--PE);
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 24px;
+    color: var(--white);
+}
