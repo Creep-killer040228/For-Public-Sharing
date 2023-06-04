@@ -58,6 +58,7 @@
     padding: 12px 24px;
     border: 1px solid #8265E0;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .nav__btn-purple {
@@ -69,4 +70,56 @@
     color: var(--white);
     padding: 12px 24px;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.banner {
+    height: 1179px;
+}
+
+.banner__desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.banner__desc-h {
+    font-family: var(--PE);
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--text-menu);
+    max-width: 700px;
+}
+
+.banner__desc-span {
+    font-family: var(--SR);
+    font-size: 76px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #387B5E;
+}
+
+.banner__desc-p {
+    font-family: var(--GT);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: var(--text-menu);
+    display: flex;
+    flex-direction: column;
+}
+
+.invoice {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 80px;
+    justify-content: center;
 }
