@@ -23,10 +23,10 @@
     --violet: #8265E0;
     --white: #FFFFFF;
     --text-menu: #1A2147;
+    --dark-green: #214937;
 }
 
-body {
-}
+body {}
 
 .container {
     max-width: 1440px;

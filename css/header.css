@@ -39,6 +39,7 @@
     font-weight: 400;
     line-height: 20px;
     color: var(--text-menu);
+    transition: 0.3s;
 }
 
 .nav__menu-link a:hover {
@@ -63,6 +64,7 @@
     border: 1px solid #8265E0;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .nav__btn-none:hover {
@@ -71,21 +73,22 @@
 }
 
 .nav__btn-purple:hover {
-    background: none;
-    color: var(--violet);
+    background: var(--violet);
+    color: var(--white);
 }
 
 .nav__btn-purple {
-    background: var(--violet);
+    background: none;
     font-family: var(--PE);
     font-size: 16px;
     font-weight: 800;
     line-height: 24px;
-    color: var(--white);
+    color: var(--violet);
     padding: 12px 24px;
     border: 1px solid #8265E0;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .banner {
@@ -138,7 +141,8 @@
     margin-top: 80px;
     justify-content: center;
 }
-.invoice img{
+
+.invoice img {
     width: 100%;
     height: 100%;
     object-fit: cover;

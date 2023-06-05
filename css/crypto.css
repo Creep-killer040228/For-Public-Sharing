@@ -1,3 +1,7 @@
+.crypto {
+    transform: translateY(-15%);
+}
+
 .crypto__wrap {
     max-width: 1195px;
     width: 100%;
@@ -9,6 +13,10 @@
     border: 2px solid #FFFFFF;
     backdrop-filter: blur(10px);
     border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .crypto__desc {
@@ -42,16 +50,170 @@
 }
 
 .crypto__desc-p {
-    font-family:var(--SR);
+    font-family: var(--SR);
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
     letter-spacing: -0.02em;
-    max-width: 410px;display: flex;
+    max-width: 410px;
+    display: flex;
     flex-direction: column;
 }
-.crypto__btn{
+
+.crypto__btn {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    z-index: 1;
+}
+
+.crypto__card {
+    display: flex;
+    max-width: 420px;
+    height: 390px;
+}
+
+.crypto__contractors {
+    background: var(--white);
+    padding: 25px 20px 20px 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 12px 0 0 12px;
+}
+
+.crypto__contractors-h {
+    font-family: var(--ME);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: var(--dark-green);
+    opacity: 0.3;
+}
+
+
+.crypto__contractors-people-card:first-child {
+    border-radius: 12px 12px 0 0;
+}
+
+.crypto__contractors-people-card:last-child {
+    border-radius: 0 0 12px 12px;
+}
+
+.crypto__contractors-people-card {
+    max-width: 169px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    border: 1px solid #F2F7F8;
+    padding: 13px 15px;
+}
+
+.crypto__contractors-people-card-user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.crypto__contractors-people-card-img img {
+    width: 35px;
+    height: 35px;
+}
+
+.crypto__contractors-people-card:hover {
+    background: #EDF7F3;
+}
+
+.details {
+    background: var(--dark-green);
+    padding: 20px;
+    border-radius: 0 12px 12px 0;
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+}
+
+.details__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.details__desc-h {
+    font-family: var(--MS);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    color: var(--white);
+}
+
+.details__desc-p {
+    font-family: var(--PB);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--white);
+}
+
+.bg {
+    font-family: var(--ME);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--white);
+    opacity: 0.3;
+    text-transform: uppercase;
+}
+
+.h {
+    font-family: var(--ME);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--white);
+}
+
+.details__btn {
+    font-family: var(--ME);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--text-menu);
+    padding: 16px 70px;
+    background: var(--white);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.details__btn:hover {
+    background: var(--green);
+    color: var(--white);
+}
+
+.crypto__banner {
+    position: absolute;
+    left: 10%;
+    bottom: 16%;
+}
+
+.crypto__banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.crypto__h-button {
+    font-family: var(--MS);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    color: var(--text-menu);
+    text-align: center;
+    max-width: 620px;
+    position: absolute;
+    bottom: 80px;
+    left: 24%;
 }
