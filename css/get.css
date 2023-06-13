@@ -1,9 +1,7 @@
 .get {
-    /* background: #F4F1FE; */
-    /* border-radius: 50% 50% 0 0; */
     margin-top: 90px;
     padding: 130px 80px 110px 80px;
-    background: url(../img/get__bg.png) no-repeat center /cover;
+    background: url(../img/get__bg.png) no-repeat top /cover;
     height: 100%;
 }
 
