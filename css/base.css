@@ -19,7 +19,7 @@
     --MS: 'MS, sans-serif';
     --SR: 'SR, sans-serif';
     --bg: #F0E4CF;
-    --dark:#000000;
+    --dark: #000000;
     --green: #4FAD84;
     --violet: #8265E0;
     --white: #FFFFFF;
@@ -31,13 +31,21 @@ body {
     background: var(--white);
 }
 
-.container {
+.container-header {
     max-width: 1440px;
     width: 100%;
     height: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
+.container {
+    max-width: 1195px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .green__btn {
     font-family: var(--PE);
     font-size: 22px;
@@ -80,11 +88,37 @@ body {
     transition: 0.3s;
 }
 
+.purple__btn:hover {
+    background: var(--violet);
+    color: var(--white);
+}
+
 .purple__btn {
     font-family: var(--PE);
     font-size: 22px;
     font-weight: 800;
     line-height: 24px;
-    color: var(--white);
+    color: var(--violet);
+    background: var();
     transition: 0.3s;
+    padding: 24px 36px;
+    border-radius: 8px;
+    background: none;
+    max-width: 276px;
+    text-align: center;
+    border: 1px solid #8F6FF6;
+}
+
+.for__btn {
+    padding: 8px 12px;
+    text-align: center;
+    font-family: var(--GT);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    color: var(--text-menu);
+    max-width: 159px;
+    text-transform: uppercase;
 }
