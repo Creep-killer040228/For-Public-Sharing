@@ -38,6 +38,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .container {
     max-width: 1195px;
     width: 100%;
@@ -121,4 +122,47 @@ body {
     color: var(--text-menu);
     max-width: 159px;
     text-transform: uppercase;
+}
+
+.title {
+    font-family: var(--PE);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 42px;
+    color: var(--text-menu);
+    margin-top: 120px;
+    margin-bottom: 90px;
+}
+
+.green {
+    background: none;
+    padding: 16px 24px;
+    font-family: var(--PE);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    color: var(--green);
+    border: 1px solid #4FAD84;
+    border-radius: 8px;
+}
+
+.green:hover {
+    background: var(--green);
+    color: var(--white);
+}
+.purple{
+    background: none;
+    padding: 16px 24px;
+    font-family: var(--PE);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    color: var(--violet);
+    border: 1px solid #8F6FF6;
+    border-radius: 8px;
+}
+
+.purple:hover {
+    background: var(--violet);
+    color: var(--white);
 }
