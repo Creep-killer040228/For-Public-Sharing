@@ -1,0 +1,26 @@
+.today {
+    background: #F0E4CF;
+}
+
+.today__wrap {
+    display: flex;
+}
+
+.today__title {
+    font-family: var(--PE);
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 80px;
+    color: #1A2147;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0 57px 0;
+}
+
+.today__card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
